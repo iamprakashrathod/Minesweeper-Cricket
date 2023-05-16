@@ -1,0 +1,58 @@
+/* Set the overall font and background color for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .head {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+  }
+  /* Style the game board as a grid */
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Change this value for different grid sizes */
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Style each block on the game board */
+  .game-block {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Style the scorecard */
+  .scorecard {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Style the start/reset button */
+  #start-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the score display */
+  #score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
